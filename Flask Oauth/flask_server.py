@@ -100,4 +100,4 @@ def oidc_login_callback(provider):
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
