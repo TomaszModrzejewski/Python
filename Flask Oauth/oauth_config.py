@@ -17,10 +17,8 @@ def gen_oauth_scope(provider, scopes):
             scopes = ' '.join(scopes)
         elif provider == 'kakao':
             scopes = ','.join(scopes)
-        elif provider == 'twitch':
-            scopes = ''  # FIXME
-        else:
-            scopes = ''.join(scopes)
+        else provider == 'twitch':
+            scopes = ''.join(scopes)       
     return scopes
 
 
