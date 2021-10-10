@@ -12,4 +12,3 @@ facebook_client_secret = ''
 
 twitch_client_id = ''
 twitch_client_secret = ''
-
