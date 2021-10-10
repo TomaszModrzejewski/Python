@@ -96,7 +96,6 @@ def oidc_login_callback(provider):
     print(request.pragma)
     print(request.full_path)
     print(request.path)
-
     return str(request.url)
 
 
