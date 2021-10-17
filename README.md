@@ -1,6 +1,7 @@
 # Python
 
-#What is Python?
+# What is Python?
+
 In technical terms, Python is an object-oriented, high-level programming language with integrated dynamic semantics primarily for web and app development. It is extremely attractive in the field of Rapid Application Development because it offers dynamic typing and dynamic binding options. 
  
 Python is relatively simple, so it’s easy to learn since it requires a unique syntax that focuses on readability. Developers can read and translate Python code much easier than other languages. In turn, this reduces the cost of program maintenance and development because it allows teams to work collaboratively without significant language and experience barriers.
@@ -13,7 +14,8 @@ If this description of Python over your head, don’t worry. You’ll understand
  
 That makes Python accessible to almost anyone. If you have the time to learn, you can create some amazing things with the language.
 
-#How is Python Used?
+
+# How is Python Used?
  
 Python is a general-purpose programming language, which is another way to say that it can be used for nearly everything. Most importantly, it is an interpreted language, which means that the written code is not actually translated to a computer-readable format at runtime. Whereas, most programming languages do this conversion before the program is even run. This type of language is also referred to as a “scripting language” because it was initially meant to be used for trivial projects.
  
