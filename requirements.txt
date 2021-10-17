@@ -365,4 +365,4 @@ yfinance==0.1.63
 zict==2.0.0
 zoloto==0.7.0
 zstandard==0.16.0
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+
