@@ -1,4 +1,0 @@
-'''
-Auhtor : Tomasz Modrzejewski
-
-'''
