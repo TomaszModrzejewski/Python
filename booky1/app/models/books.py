@@ -4,12 +4,8 @@ from .https import convert_to_https
 
 class Books():
     def __init__(self, query="", start=0, testing=False, https=False):
-        if not testing:
-            self.json = google_book_search(query, start)
-        else:
-            self.json = testing
-
-        self.https = True if https else False
+        self.json = google_book_search(query, start) if not testing else testing
+        self.https = bool(https)
 
     def parse(self):
         """
@@ -56,12 +52,11 @@ class Books():
         """
         if not imageLinks:
             return {"thumbnail": "static/images/booky-book.jpg"}
-        else:
-            if self.https:
-                for link in imageLinks:
-                    imageLinks[link] = convert_to_https(imageLinks[link])
+        if self.https:
+            for link in imageLinks:
+                imageLinks[link] = convert_to_https(imageLinks[link])
 
-            return imageLinks
+        return imageLinks
 
 
 def payload(items, total):
